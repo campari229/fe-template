@@ -4,11 +4,16 @@
   "description": "fe progects",
   "main": "./src/index.html",
   "scripts": {
+    "start": "npx parcel ./src/index.html --open",
+    "build": "rm -rf ./dist && npx parcel build ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "template"
   ],
   "author": "campari229",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
 }
