@@ -1,0 +1,14 @@
+{
+  "name": "fe_template",
+  "version": "1.0.0",
+  "description": "fe progects",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "campari229",
+  "license": "ISC"
+}
